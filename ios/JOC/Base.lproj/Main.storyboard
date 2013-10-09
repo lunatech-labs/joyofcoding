@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Info View Controller - Info-->
+        <scene sceneID="e01-Hg-ZpB">
+            <objects>
+                <viewController id="dAc-5A-zK1" customClass="InfoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9PS-0U-TVO"/>
+                        <viewControllerLayoutGuide type="bottom" id="P1W-Qe-Sda"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VLb-0t-Buw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Info" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="QU2-Wf-soR">
+                                <rect key="frame" x="135" y="158" width="61" height="42"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Geo check-in and sponsor logo's" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="r7h-KI-SYv">
+                                <rect key="frame" x="20" y="240" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="vyj-kq-h1F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r7h-KI-SYv" firstAttribute="top" secondItem="QU2-Wf-soR" secondAttribute="bottom" constant="40" id="8B5-ZX-ebg"/>
+                            <constraint firstAttribute="trailing" secondItem="r7h-KI-SYv" secondAttribute="trailing" constant="20" symbolic="YES" id="QCv-L7-MWj"/>
+                            <constraint firstItem="r7h-KI-SYv" firstAttribute="leading" secondItem="VLb-0t-Buw" secondAttribute="leading" constant="20" symbolic="YES" id="XFk-42-beA"/>
+                            <constraint firstItem="QU2-Wf-soR" firstAttribute="leading" secondItem="VLb-0t-Buw" secondAttribute="leading" constant="135" id="iko-Jb-tJF"/>
+                            <constraint firstItem="r7h-KI-SYv" firstAttribute="centerY" secondItem="VLb-0t-Buw" secondAttribute="centerY" id="nPV-Wi-Egh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Info" image="724-info" id="Ovy-Dh-Swd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kbF-Fq-l3U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="526"/>
+        </scene>
+        <!--Map View Controller - Map-->
+        <scene sceneID="Evt-SS-EKb">
+            <objects>
+                <viewController id="2as-cM-nNa" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DBb-ch-YWU"/>
+                        <viewControllerLayoutGuide type="bottom" id="ER7-uW-1CD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MNA-CA-y8u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Map" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="sMo-87-xfb">
+                                <rect key="frame" x="125" y="158" width="71" height="42"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Venue map and directions" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d6T-yk-pxO">
+                                <rect key="frame" x="20" y="240" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="jMn-Fo-WPb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d6T-yk-pxO" firstAttribute="leading" secondItem="MNA-CA-y8u" secondAttribute="leading" constant="20" symbolic="YES" id="4XS-VJ-HZQ"/>
+                            <constraint firstItem="d6T-yk-pxO" firstAttribute="top" secondItem="sMo-87-xfb" secondAttribute="bottom" constant="40" id="RLZ-ce-2aj"/>
+                            <constraint firstItem="d6T-yk-pxO" firstAttribute="centerX" secondItem="sMo-87-xfb" secondAttribute="centerX" id="hCo-FM-Xoy"/>
+                            <constraint firstItem="d6T-yk-pxO" firstAttribute="centerY" secondItem="MNA-CA-y8u" secondAttribute="centerY" id="xRt-BB-2UD"/>
+                            <constraint firstAttribute="trailing" secondItem="d6T-yk-pxO" secondAttribute="trailing" constant="20" symbolic="YES" id="zmG-o7-jf9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="852-map" id="oUK-aD-lRg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4UA-yi-n99" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="526"/>
+        </scene>
+        <!--Program View Controller - Programe-->
+        <scene sceneID="ot8-2e-RuS">
+            <objects>
+                <viewController title="Programe" id="QUy-BD-bpt" customClass="ProgramViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8N6-hF-vz9"/>
+                        <viewControllerLayoutGuide type="bottom" id="hUm-Yn-et8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMD-aP-Fq6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Program" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="29h-N2-YGT">
+                                <rect key="frame" x="20" y="158" width="280" height="42"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Conference programme " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DcM-Fx-MKR">
+                                <rect key="frame" x="20" y="240" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="9fN-Zf-E0i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="29h-N2-YGT" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="4te-rk-9Fp"/>
+                            <constraint firstAttribute="trailing" secondItem="29h-N2-YGT" secondAttribute="trailing" constant="20" symbolic="YES" id="FIx-Zl-RBr"/>
+                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="top" secondItem="29h-N2-YGT" secondAttribute="bottom" constant="40" id="Gb1-a9-eY8"/>
+                            <constraint firstAttribute="trailing" secondItem="DcM-Fx-MKR" secondAttribute="trailing" constant="20" symbolic="YES" id="XTh-ji-q0k"/>
+                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="l9f-S9-V20"/>
+                            <constraint firstAttribute="centerY" secondItem="DcM-Fx-MKR" secondAttribute="centerY" id="lHZ-e8-ii2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Program" image="728-clock" id="Z7h-1E-pvt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="-138"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Vex-rW-GRa">
+            <objects>
+                <tabBarController id="8YX-ce-x5E" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="JQR-rB-NYL">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="W2b-oV-oTG" kind="relationship" relationship="viewControllers" id="7fM-Vs-pli"/>
+                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
+                        <segue destination="2as-cM-nNa" kind="relationship" relationship="viewControllers" id="5JV-Wm-k3b"/>
+                        <segue destination="dAc-5A-zK1" kind="relationship" relationship="viewControllers" id="vly-KJ-igX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="168"/>
+        </scene>
+        <!--News View Controller - Programe-->
+        <scene sceneID="R3o-XR-bqm">
+            <objects>
+                <viewController title="Programe" id="W2b-oV-oTG" customClass="NewsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZUM-Cu-bX0"/>
+                        <viewControllerLayoutGuide type="bottom" id="4V6-wB-5PF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l1t-7Q-fPo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="News" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uHt-fO-mdC">
+                                <rect key="frame" x="20" y="158" width="280" height="42"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Latest news" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Exb-Cr-DPY">
+                                <rect key="frame" x="20" y="240" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="9QQ-Od-WO3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uHt-fO-mdC" secondAttribute="trailing" constant="20" symbolic="YES" id="2XQ-lC-jq6"/>
+                            <constraint firstItem="uHt-fO-mdC" firstAttribute="leading" secondItem="l1t-7Q-fPo" secondAttribute="leading" constant="20" symbolic="YES" id="8tB-uj-tGF"/>
+                            <constraint firstItem="Exb-Cr-DPY" firstAttribute="leading" secondItem="l1t-7Q-fPo" secondAttribute="leading" constant="20" symbolic="YES" id="L2w-iv-BQT"/>
+                            <constraint firstItem="Exb-Cr-DPY" firstAttribute="top" secondItem="uHt-fO-mdC" secondAttribute="bottom" constant="40" id="cZ0-Mk-9th"/>
+                            <constraint firstAttribute="centerY" secondItem="Exb-Cr-DPY" secondAttribute="centerY" id="ueo-So-UCl"/>
+                            <constraint firstAttribute="trailing" secondItem="Exb-Cr-DPY" secondAttribute="trailing" constant="20" symbolic="YES" id="z7d-oh-aQN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Program" image="734-chat" id="HUF-MQ-LDC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5CV-Pe-NfT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="724-info" width="28" height="28"/>
+        <image name="728-clock" width="28" height="28"/>
+        <image name="734-chat" width="28" height="25"/>
+        <image name="852-map" width="28" height="24"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

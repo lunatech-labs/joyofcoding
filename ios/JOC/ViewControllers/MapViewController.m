@@ -1,0 +1,29 @@
+//
+//  MapViewController.m
+//  JOC
+//
+//  Created by Anna Gos on 10/9/13.
+//  Copyright (c) 2013 Anna Gos. All rights reserved.
+//
+
+#import "MapViewController.h"
+
+@interface MapViewController ()
+
+@end
+
+@implementation MapViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
