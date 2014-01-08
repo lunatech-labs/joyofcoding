@@ -6,18 +6,18 @@
 //  Copyright (c) 2013 Anna Gos. All rights reserved.
 //
 
-#import "MapViewController.h"
+#import "DirectionsViewController.h"
 
-@interface MapViewController ()
+@interface DirectionsViewController ()
 
 @end
 
-@implementation MapViewController
+@implementation DirectionsViewController
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning

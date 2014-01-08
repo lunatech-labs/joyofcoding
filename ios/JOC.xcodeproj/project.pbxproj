@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95157C8018057E6500525CE3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157C7F18057E6500525CE3 /* MapViewController.m */; };
-		95157C8318057E8700525CE3 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157C8218057E8700525CE3 /* InfoViewController.m */; };
 		9546E4F61803027C00F94D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546E4F51803027C00F94D0E /* Foundation.framework */; };
 		9546E4F81803027C00F94D0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546E4F71803027C00F94D0E /* CoreGraphics.framework */; };
 		9546E4FA1803027C00F94D0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546E4F91803027C00F94D0E /* UIKit.framework */; };
 		9546E5001803027C00F94D0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9546E4FE1803027C00F94D0E /* InfoPlist.strings */; };
-		9546E5021803027C00F94D0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E5011803027C00F94D0E /* main.m */; };
-		9546E5061803027C00F94D0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E5051803027C00F94D0E /* AppDelegate.m */; };
 		9546E5091803027C00F94D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9546E5071803027C00F94D0E /* Main.storyboard */; };
-		9546E50F1803027C00F94D0E /* ProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E50E1803027C00F94D0E /* ProgramViewController.m */; };
 		9546E5181803027C00F94D0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546E5171803027C00F94D0E /* XCTest.framework */; };
 		9546E5191803027C00F94D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546E4F51803027C00F94D0E /* Foundation.framework */; };
 		9546E51A1803027C00F94D0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546E4F91803027C00F94D0E /* UIKit.framework */; };
 		9546E5221803027C00F94D0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9546E5201803027C00F94D0E /* InfoPlist.strings */; };
 		9546E5241803027C00F94D0E /* JOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E5231803027C00F94D0E /* JOCTests.m */; };
 		9546E535180418B500F94D0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9546E534180418B500F94D0E /* Images.xcassets */; };
-		9546E53818042DA300F94D0E /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E53718042DA300F94D0E /* NewsViewController.m */; };
-		9546E53C18057ADC00F94D0E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E53B18057ADC00F94D0E /* BaseViewController.m */; };
+		9584251B1869B73F00F4C269 /* ProgramViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9546E50D1803027C00F94D0E /* ProgramViewController.h */; };
+		9584251C1869B73F00F4C269 /* ProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E50E1803027C00F94D0E /* ProgramViewController.m */; };
+		9584251D1869B73F00F4C269 /* NewsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9546E53618042DA300F94D0E /* NewsViewController.h */; };
+		9584251E1869B73F00F4C269 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E53718042DA300F94D0E /* NewsViewController.m */; };
+		9584251F1869B73F00F4C269 /* BaseViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9546E53A18057ADC00F94D0E /* BaseViewController.h */; };
+		958425201869B73F00F4C269 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E53B18057ADC00F94D0E /* BaseViewController.m */; };
+		958425211869B73F00F4C269 /* DirectionsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 95157C7E18057E6500525CE3 /* DirectionsViewController.h */; };
+		958425221869B73F00F4C269 /* DirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157C7F18057E6500525CE3 /* DirectionsViewController.m */; };
+		958425231869B73F00F4C269 /* InfoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 95157C8118057E8700525CE3 /* InfoViewController.h */; };
+		958425241869B73F00F4C269 /* VenueViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 958425111868991700F4C269 /* VenueViewController.h */; };
+		958425251869B73F00F4C269 /* VenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958425121868991700F4C269 /* VenueViewController.m */; };
+		958425261869B73F00F4C269 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157C8218057E8700525CE3 /* InfoViewController.m */; };
+		958425271869B73F00F4C269 /* MapNavigationController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9584250E18688E5F00F4C269 /* MapNavigationController.h */; };
+		958425281869B73F00F4C269 /* MapNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9584250F18688E5F00F4C269 /* MapNavigationController.m */; };
+		958425291869B74A00F4C269 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 9546E5041803027C00F94D0E /* AppDelegate.h */; };
+		9584252A1869B74A00F4C269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E5051803027C00F94D0E /* AppDelegate.m */; };
+		9584252B1869B75100F4C269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546E5011803027C00F94D0E /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		95157C7E18057E6500525CE3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		95157C7F18057E6500525CE3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		95157C7E18057E6500525CE3 /* DirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionsViewController.h; sourceTree = "<group>"; };
+		95157C7F18057E6500525CE3 /* DirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionsViewController.m; sourceTree = "<group>"; };
 		95157C8118057E8700525CE3 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		95157C8218057E8700525CE3 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		9546E4F21803027C00F94D0E /* JOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +75,10 @@
 		9546E53718042DA300F94D0E /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
 		9546E53A18057ADC00F94D0E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		9546E53B18057ADC00F94D0E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9584250E18688E5F00F4C269 /* MapNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNavigationController.h; sourceTree = "<group>"; };
+		9584250F18688E5F00F4C269 /* MapNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNavigationController.m; sourceTree = "<group>"; };
+		958425111868991700F4C269 /* VenueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueViewController.h; sourceTree = "<group>"; };
+		958425121868991700F4C269 /* VenueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,10 +186,14 @@
 				9546E53718042DA300F94D0E /* NewsViewController.m */,
 				9546E53A18057ADC00F94D0E /* BaseViewController.h */,
 				9546E53B18057ADC00F94D0E /* BaseViewController.m */,
-				95157C7E18057E6500525CE3 /* MapViewController.h */,
-				95157C7F18057E6500525CE3 /* MapViewController.m */,
+				95157C7E18057E6500525CE3 /* DirectionsViewController.h */,
+				95157C7F18057E6500525CE3 /* DirectionsViewController.m */,
 				95157C8118057E8700525CE3 /* InfoViewController.h */,
+				958425111868991700F4C269 /* VenueViewController.h */,
+				958425121868991700F4C269 /* VenueViewController.m */,
 				95157C8218057E8700525CE3 /* InfoViewController.m */,
+				9584250E18688E5F00F4C269 /* MapNavigationController.h */,
+				9584250F18688E5F00F4C269 /* MapNavigationController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -277,13 +295,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9546E50F1803027C00F94D0E /* ProgramViewController.m in Sources */,
-				9546E53C18057ADC00F94D0E /* BaseViewController.m in Sources */,
-				9546E5061803027C00F94D0E /* AppDelegate.m in Sources */,
-				95157C8018057E6500525CE3 /* MapViewController.m in Sources */,
-				9546E53818042DA300F94D0E /* NewsViewController.m in Sources */,
-				95157C8318057E8700525CE3 /* InfoViewController.m in Sources */,
-				9546E5021803027C00F94D0E /* main.m in Sources */,
+				9584252B1869B75100F4C269 /* main.m in Sources */,
+				958425291869B74A00F4C269 /* AppDelegate.h in Sources */,
+				9584252A1869B74A00F4C269 /* AppDelegate.m in Sources */,
+				9584251B1869B73F00F4C269 /* ProgramViewController.h in Sources */,
+				9584251C1869B73F00F4C269 /* ProgramViewController.m in Sources */,
+				9584251D1869B73F00F4C269 /* NewsViewController.h in Sources */,
+				9584251E1869B73F00F4C269 /* NewsViewController.m in Sources */,
+				9584251F1869B73F00F4C269 /* BaseViewController.h in Sources */,
+				958425201869B73F00F4C269 /* BaseViewController.m in Sources */,
+				958425211869B73F00F4C269 /* DirectionsViewController.h in Sources */,
+				958425221869B73F00F4C269 /* DirectionsViewController.m in Sources */,
+				958425231869B73F00F4C269 /* InfoViewController.h in Sources */,
+				958425241869B73F00F4C269 /* VenueViewController.h in Sources */,
+				958425251869B73F00F4C269 /* VenueViewController.m in Sources */,
+				958425261869B73F00F4C269 /* InfoViewController.m in Sources */,
+				958425271869B73F00F4C269 /* MapNavigationController.h in Sources */,
+				958425281869B73F00F4C269 /* MapNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

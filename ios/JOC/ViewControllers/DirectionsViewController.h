@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface MapViewController : BaseViewController
+@interface DirectionsViewController : BaseViewController
 
 @end
